@@ -1,0 +1,10 @@
+<!-- wxml是编写小程序的文件 -->
+<!-- <div> -->
+<!-- 冒泡用bindtap  阻止冒泡用catchtap -->
+<view class='container'>
+  <image class='user-avatar src="/images/1.png"'></image>
+  <text class='user-name'>hello,末了</text>
+  <view class='moto-container' bindtap='onTap'>
+    <text class='moto'>开启小程序之旅</text>
+  </view>
+</view> 
